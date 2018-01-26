@@ -1,0 +1,64 @@
+
+.headerMenu2{
+    background-color:rgba(47, 255, 57, 0.63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerMenu1{
+  background-color:rgba(47, 255, 57, 0.63);
+ 
+}
+.close{
+    margin-left: auto ;
+}
+.profile{
+    width: 35%;
+    height: auto;
+   margin-bottom: 0.5rem;
+}
+ h3{
+    color: #fff;
+    margin: 0;
+    margin-bottom: 3.5rem;
+    font-size: 2rem;
+    font-weight: normal;
+    
+}
+ion-content.mainMenu ion-list .item{
+    background-color: #fff;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1.75rem;
+}
+
+
+ion-content.mainMenu ion-icon{
+    height: 85%;
+    vertical-align: middle;
+    color: rgba(47, 255, 57, 0.63);
+}
+
+ion-list .item p{
+    margin: 0;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: green;;
+}
+ion-modal {
+    
+    ion-content{
+        top: 20%;
+        left: 5%;
+
+        width: 90%;
+        height: 60%;
+        border-radius: 10px;
+        
+    }
+  
+}
+
+
